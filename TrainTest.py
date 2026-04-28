@@ -2,7 +2,6 @@
 # EARLY VIOLENCE PREDICTION (CNN + LSTM)
 # ============================================================
 
-# NOTE: Update ROOT path according to your dataset location
 
 import os
 import ast
@@ -17,7 +16,7 @@ from sklearn.model_selection import GroupShuffleSplit
 from sklearn.metrics import f1_score
 
 # ------------------ CONFIG ------------------
-ROOT = "data/"   # <-- CHANGE THIS if needed
+ROOT = "data/"  
 
 VIOLENCE_DIR    = os.path.join(ROOT, "violenceFrame")
 NONVIOLENCE_DIR = os.path.join(ROOT, "nonViolenceFrame")
